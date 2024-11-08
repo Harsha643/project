@@ -1,0 +1,57 @@
+
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("./images/email\ background\ image.webp");
+    width:100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+
+}
+.logo{
+    width: 150px;
+    cursor:pointer;
+}
+
+.sign>a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #db0001;
+}
+.header{
+    display: flex;
+    align-items: center;
+ 
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.main-container{
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+
+}
+.name{
+    height: 30px;
+    outline: none;
+}
+.debit{
+    height: 30px;
+    outline: none;
+}
+.find>.btn1{
+    background-color: rgb(93, 185, 238);
+
+}
+.find>.btn2{
+    background-color: #ccc;
+}

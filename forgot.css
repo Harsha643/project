@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.main-container{
+    width: 400px;
+     
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.container{
+    width: 420px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 30px;
+}
+.email:focus{
+    outline: 2px solid white;
+}
