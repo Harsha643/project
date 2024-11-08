@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.signout{
+    background-color: red;
+}
+body{
+    height: 100vh;
+    background-image: url("./images/email\ background\ image.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    background-color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+
+    height: 300px;
+    width: 400px;
+   /* margin-left: 650px; */
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+}
+button{
+    height:50px;
+    background-color:skyblue;
+}
+button>a{
+    text-decoration: none;
+    color:#fff ;
+}

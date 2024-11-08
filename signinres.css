@@ -9,7 +9,8 @@
     height: 600px;
     border: 2px solid ;
     display: grid;
-    grid-template-columns: 200px;
+    grid-template-columns: 1fr;
+    padding: 50px;
     margin: 30px;
     align-items: center;
     background-color: black;
@@ -23,7 +24,7 @@
     border: 5px solid red;
 } */
 .email, .password{
-    height: 30px;
+    height: 40px;
     padding-left: 2px;
     width: 240px;
 
@@ -52,10 +53,15 @@ a{
 }
 .email:focus{
     outline: 1px solid white;
-    font-size: 10px;
-
-   
+    /* transform: translatey(-10px);
+    font-size: 10px; */
+    outline-offset: 2px;
 }
+.email::placeholder:focus{
+    transform: translatey(-10px);
+    font-size: 10px;
+}
+
 .password:focus{
     outline: 1px solid white;
     font-size: 10px;
@@ -67,3 +73,4 @@ body{
   justify-content: center;
   align-items: center;
 }
+

@@ -1,8 +1,8 @@
-/* *{
+*{
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,7 @@ padding: 20px;
     grid-template-columns: 1fr;
 }
 main{
-    margin-top: 80px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,16 +50,18 @@ a{
 }
 .upgrade{
     display: grid;
+    gap: 10px;
     grid-template-columns: 1fr;
     border: 2px solid;
     border-image: linear-gradient(to right, blue 50% , red 50%) 2;
-    padding: 20px;
+    padding: 10px;
     align-content: center;
     justify-content: center;
+    margin-bottom: 10px;
 }
 .uofffer{
     width: 100px;
-   
+   color: #ccc;
     background: conic-gradient(red 50%, blue 50%);
 }
 /* border-image: linear-gradient(to bottom, grey 25%, yellow 25%, green 50%,red 50%, yellow 75%, teal 75%) 5; */
