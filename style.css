@@ -37,38 +37,33 @@ position: relative;
 }
 nav{
     display: flex;
-    align-items: center;
- 
     justify-content: space-between;
-    padding: 10px 0px;
+    align-items: center;
 }
+
 .logo{
     width: 150px;
     cursor:pointer;
-}
-
-nav button{
-    border: 0;
-    outline: 0;
-    background:#db0001 ;
-    color: #fff;
-    width: 100px;
-    height: 25px;
-    cursor: pointer;
 }
 .lang-btn{
     display: inline-block;
     align-items: center;
     background-color: transparent;
-    border:1px solid #fff  ;
-    padding:7px 10px ;
+    border:1px solid #ccc  ;
+    color: #fff;
+    padding:5px ;
     outline: none;
-    border: NONE;
+    border:2px solid;
 }
-.lang-btn ion-icon{
-    width: 10px;
-    margin-left: 10px;
+.sign{
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    padding: 7px;
 }
+
+
+
 div a{
     text-decoration: none;
     color: #fff;
@@ -117,6 +112,21 @@ text-align: center;
    cursor: pointer;
    padding: 15px 20px;
     
+
+}
+
+main{
+    
+  height: 100px;
+  background:black;
+  border-top-left-radius: 50% 100px;
+  border-top-right-radius: 50% 100px;
+  width: 100%;
+    border: 2px solid red;
+    bottom: 200px; position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
 
