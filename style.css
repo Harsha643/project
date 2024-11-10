@@ -819,7 +819,7 @@ main{
         
         
         }
-        @media screen and (width < 690px){
+@media screen and (width < 690px){
             .center-text h1{
                 font-size: 30px;
                 line-height:50px ;
@@ -908,7 +908,7 @@ main{
                 
                 
                 }
-                @media screen and (width < 780px){
+ @media screen and (width < 570px){
                     .center-text h1{
                         font-size: 30px;
                         line-height:50px ;
@@ -925,7 +925,7 @@ main{
                             margin:0px 50px;
                            }
                            .container>h2{
-                            font-size: 16px;
+                            font-size: 10px;
                             
                            }
                            .sub-content{
@@ -934,7 +934,7 @@ main{
                             padding: 30px ;
                         }
                         .content>h1{
-                            font-size: 20px;
+                            font-size: 15px;
                         }
                         .tv , .smile , .scope ,.arrow{
                             margin: 10px;
