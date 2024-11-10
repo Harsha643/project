@@ -5,22 +5,7 @@
     font-family: sans-serif;
 
 }
-/* header{
-    height: 50px;
-    display: flex;
-    justify-content: space-around;
-    margin: 10px;
-    
 
-}
-.two{
-  display: grid;
-    align-items: center;
-    gap: 10px;
-    grid-template-columns:80px 80px;
-
-     
-}*/
 body{
     background: #000;
 
@@ -100,8 +85,13 @@ text-align: center;
     flex: 1;
     border: 0;
     outline: 0;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 
+}
+.email-address:focus::placeholder{
+    transform: translateY(-10px);
+    font-size: 10px;
+    
 }
 .email-address .btn{
     background-color: #db0001;
@@ -114,21 +104,896 @@ text-align: center;
     
 
 }
+.sub{
+    width: 250px;
+    height: 300px;
+    /* border: 2px solid ; */
+}
+
+.kehi{
+    background-image: url("./images/do.webp");
+    width:200px;
+    height: 280px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    /* gap: 10px; */
+   
+}
+.second{
+    background-image: url("./images/bhool.webp");
+    width:200px;
+    height: 280px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    /* gap: 10px; */
+   
+}
+.third{
+    background-image: url("./images/dont.webp");
+    width:200px;
+    height: 280px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    /* gap: 10px; */
+   
+}
+.fourth{
+    background-image: url("./images/family.webp");
+    width:200px;
+    height: 280px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    /* gap: 10px; */
+   
+}
+.fifth{
+    background-image: url("./images/melyazlagaa.webp");
+    width:200px;
+    height: 280px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    /* gap: 10px; */
+   
+}
+.sixth{
+    background-image: url("./images/saripodha.webp");
+    width:200px;
+    height: 280px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    /* gap: 10px; */
+   
+}
+.seventh{
+    background-image: url("./images/time.webp");
+    width:200px;
+    height: 280px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    /* gap: 10px; */
+   
+}
+.eighth{
+    background-image: url("./images/trans.webp");
+    width:200px;
+    height: 280px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    /* gap: 10px; */
+   
+}
+.ninth{
+    background-image: url("./images/time\ cut.webp");
+    width:200px;
+    height: 280px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    /* gap: 10px; */
+   
+}
+.tenth{
+    background-image: url("./images/do.webp");
+    width:200px;
+    height: 280px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    /* gap: 10px; */
+   
+}
+
+.main-container{
+    padding: 20px;
+ width: 100%;
+    /* height: 100vh; */
+  border: 2px solid black;
+    display: flex;
+    gap: 10px;
+scrollbar-width: none;
+    overflow-x: scroll; 
+
+}
+main{
+ margin: 0px 200px ;
+}
+.kehi:hover{
+    transform:scale(1.2,1.1);
+    cursor:pointer;
+}
+.second:hover{
+    transform:scale(1.2,1.2);
+    cursor:pointer;
+}
+.third:hover{
+    transform:scale(1.2,1.2);
+    cursor:pointer;
+}
+.fourth:hover{
+    transform:scale(1.2,1.2);
+    cursor:pointer;
+}
+.fifth:hover{
+    transform:scale(1.2,1.2);
+    cursor:pointer;
+}
+.sixth:hover{
+    transform:scale(1.2,1.2);
+    cursor:pointer;
+}
+.seventh:hover{
+    transform:scale(1.2,1.2);
+    cursor:pointer;
+}
+.eighth:hover{
+    transform:scale(1.2,1.2);
+    cursor:pointer;
+}
+.ninth:hover{
+    transform:scale(1.2,1.2);
+    cursor:pointer;
+}
+.tenth:hover{
+    transform:scale(1.2,1.2);
+    cursor:pointer;
+}
+
+  
+
+.sub-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 30px ;
+}
+.tv , .smile , .scope ,.arrow{
+    margin: 10px;
+    padding: 10px;
+    width: 260px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    background-color: rgb(18, 36, 36);
+
+}
+.under{
+    margin-top: 20px;
+    font-size: 33px;
+    margin-left: 200px;
+}
+.arou{
+    margin-top: 15px;
+    font-size: 33px;
+    margin-left: 200px;
+}
+.sunder{
+    margin-top: 30px;
+    font-size: 33px;
+    margin-left: 200px;
+}
+
+.munder{
+    margin-top: 20px;
+    font-size: 33px;
+    margin-left: 200px;
+}
+.accordion{
+    margin: 60px;
+    width: 100%;
+    /* max-width:; */
+
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size:18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    
+
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    right: 20px;
+    position: absolute;
+    transition:trasform  0.5s;
+    cursor:pointer;
+
+}
+input[type="radio"]{
+    display: none;
+
+}
+.accordion .content{
+
+    background: #303030;
+    text-align: left;
+    padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px; 
+}
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.email-address   {
+    max-width: 600px; 
+    margin: 20px auto 60px;
+}
+.nbr a{
+    text-decoration: underline;
+    color: #949090;
+    font-size: small;
+}
+footer{
+    padding: 50px;
+   
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px ;
+}
+
+@media screen and (width < 1500px){
+   
+    
 
 main{
+    margin:0px 150px;
+   }
+   .container>h2{
+    font-size: 16px;
     
-  height: 100px;
-  background:black;
-  border-top-left-radius: 50% 100px;
-  border-top-right-radius: 50% 100px;
-  width: 100%;
-    border: 2px solid red;
-    bottom: 200px; position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+   }
+   /* .sub-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 30px ;
+} */
+.tv , .smile , .scope ,.arrow{
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    background-color: rgb(18, 36, 36);
+
+}
+.under{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 200px;
+}
+.arou{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 200px;
+}
+.sunder{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+.munder{
+    margin-top: 15px;
+    font-size: 30px;
+    margin-left: 200px;
+}
+.accordion{
+    margin: 60px;
+    width: 100%;
+    max-width:1200px;
+
+}
+
+}
+@media screen and (width < 1380px){
+   
+    
+
+main{
+    margin:0px 50px;
+   }
+   .container>h2{
+    font-size: 16px;
+    
+   }
+   .sub-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 30px ;
+}
+.tv , .smile , .scope ,.arrow{
+    margin: 10px;
+    padding: 10px;
+    width: 230px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    background-color: rgb(18, 36, 36);
+
+}
+.under{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 150px;
+}
+.arou{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 150px;
+}
+.sunder{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 150px;
+}
+
+.munder{
+    margin-top: 15px;
+    font-size: 30px;
+    margin-left: 150px;
+}
+.accordion{
+    margin: 60px;
+    width: 100%;
+    max-width:990px;
 
 }
 
 
 
+
+}
+
+
+@media screen and (width < 1150px){
+   
+    
+
+    main{
+        margin:0px 50px;
+       }
+       .container>h2{
+        font-size: 16px;
+        
+       }
+       .sub-content{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding: 30px ;
+    }
+    .tv , .smile , .scope ,.arrow{
+        margin: 10px;
+        padding: 10px;
+        width: 180px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border-radius: 10px;
+        background-color: rgb(18, 36, 36);
+    
+    }
+    .under{
+        margin-top: 18px;
+        font-size: 25px;
+        margin-left: 130px;
+    }
+    .arou{
+        margin-top: 5px;
+        font-size: 25px;
+        margin-left: 130px;
+    }
+    .sunder{
+        margin-top: 18px;
+        font-size: 25px;
+        margin-left: 130px;
+    }
+    
+    .munder{
+        margin-top:3px;
+        font-size: 25px;
+        margin-left: 130px;
+    }
+    .accordion{
+        margin: 60px;
+        width: 100%;
+        max-width:900px;
+    
+    }
+    
+    
+    
+    
+    }
+
+@media screen and (width < 900px){
+    .center-text h1{
+        font-size: 40px;
+        line-height:60px ;
+        font-weight: 500px;
+        max-width: 650px;
+    }
+    .center-text p{
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+    
+
+        main{
+            margin:0px 50px;
+           }
+           .container>h2{
+            font-size: 16px;
+            
+           }
+           .sub-content{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            padding: 30px ;
+        }
+        .tv , .smile , .scope ,.arrow{
+            margin: 10px;
+            padding: 10px;
+            width: 350px;
+            height: 160px;
+            display: flex;
+            flex-direction: column;
+            gap: 45px;
+            border-radius: 10px;
+            background-color: rgb(18, 36, 36);
+        
+        }
+        .under{
+            margin-top:-20px;
+            margin-bottom: 20px;
+            font-size: 30px;
+            margin-left: 300px;
+        }
+        .arou{
+            margin-top: -50px;
+            font-size: 50px;
+            margin-left: 300px;
+        }
+        .sunder{
+            margin-top:-20px;
+            font-size: 35px;
+            font-weight: 30;
+            margin-left: 300px;
+        }
+        
+        .munder{
+            margin-top:-30px;
+            font-size: 40px;
+            margin-left: 300px;
+        }
+        .accordion{
+            margin: 60px;
+            width: 100%;
+            max-width:700px;
+        
+        }
+    
+        }
+          
+@media screen and (width < 820px){
+    .center-text h1{
+        font-size: 30px;
+        line-height:50px ;
+        font-weight: 400px;
+        max-width: 550px;
+    }
+    .center-text p{
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+    
+
+        main{
+            margin:0px 50px;
+           }
+           .container>h2{
+            font-size: 16px;
+            
+           }
+           .sub-content{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            padding: 30px ;
+        }
+        .tv , .smile , .scope ,.arrow{
+            margin: 10px;
+            padding: 10px;
+            width: 300px;
+            height: 160px;
+            display: flex;
+            flex-direction: column;
+            gap: 45px;
+            border-radius: 10px;
+            background-color: rgb(18, 36, 36);
+        
+        }
+        .under{
+            margin-top:-20px;
+            margin-bottom: 20px;
+            font-size: 30px;
+            margin-left: 220px;
+        }
+        .arou{
+            margin-top: -50px;
+            font-size: 50px;
+            margin-left: 220px;
+        }
+        .sunder{
+            margin-top:-20px;
+            font-size: 35px;
+            font-weight: 30;
+            margin-left: 220px;
+        }
+        
+        .munder{
+            margin-top:-30px;
+            font-size: 40px;
+            margin-left: 220px;
+        }
+        .accordion{
+            margin: 60px;
+            width: 100%;
+            max-width:600px;
+        
+        }
+      
+        
+        
+        
+        }
+          
+@media screen and (width < 780px){
+    .center-text h1{
+        font-size: 30px;
+        line-height:50px ;
+        font-weight: 400px;
+        max-width: 550px;
+    }
+    .center-text p{
+        font-weight: 250;
+        margin-bottom: 10px;
+    }
+    
+
+        main{
+            margin:0px 50px;
+           }
+           .container>h2{
+            font-size: 16px;
+            
+           }
+           .sub-content{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            padding: 30px ;
+        }
+        .content>h1{
+            font-size: 20px;
+        }
+        .tv , .smile , .scope ,.arrow{
+            margin: 10px;
+            padding: 10px;
+            width: 300px;
+            height: 180px;
+            display: flex;
+            flex-direction: column;
+            gap: 45px;
+            border-radius: 10px;
+            background-color: rgb(18, 36, 36);
+        
+        }
+
+        .under{
+            margin-top:-16px;
+            margin-bottom: 20px;
+            font-size: 30px;
+            margin-left: 230px;
+        }
+        .arou{
+            margin-top: -40px;
+            font-size: 50px;
+            margin-left: 230px;
+        }
+        .sunder{
+            margin-top:-10px;
+            font-size: 35px;
+            font-weight: 30;
+            margin-left: 230px;
+        }
+        
+        .munder{
+            margin-top:-15px;
+            font-size: 40px;
+            margin-left: 230px;
+        }
+        .accordion{
+            margin: 60px;
+            width: 100%;
+            max-width:550px;
+        
+        }
+        .container-scroll>h1{
+            font-size: 20px;
+        }
+        .smallone{
+            display: none;
+        }
+      .footer{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+      }
+      footer>p{
+        padding: 10px;
+
+      }
+        
+        
+        
+        }
+        @media screen and (width < 690px){
+            .center-text h1{
+                font-size: 30px;
+                line-height:50px ;
+                font-weight: 400px;
+                max-width: 550px;
+            }
+            .center-text p{
+                font-weight: 250;
+                margin-bottom: 10px;
+            }
+            
+        
+                main{
+                    margin:0px 50px;
+                   }
+                   .container>h2{
+                    font-size: 13px;
+                    
+                   }
+                   .sub-content{
+                    display: grid;
+                    grid-template-columns: repeat(1,1fr);
+                    padding: 30px ;
+                }
+                .content>h1{
+                    font-size: 30px;
+                }
+                .tv , .smile , .scope ,.arrow{
+                    margin: 10px;
+                    padding: 20px;
+                    width: 500px;
+                    height: 180px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    border-radius: 10px;
+                    background-color: rgb(18, 36, 36);
+                
+                }
+        
+                .under{
+                    margin-top:60px;
+                    margin-bottom: 20px;
+                    font-size: 30px;
+                    margin-left: 400px;
+                }
+                .arou{
+                    margin-top: 60px;
+                    font-size: 50px;
+                    margin-left: 400px;
+                }
+                .sunder{
+                    margin-top:60px;
+                    font-size: 35px;
+                    font-weight: 30;
+                    margin-left: 400px;
+                }
+                
+                .munder{
+                    margin-top:60px;
+                    font-size: 40px;
+                    margin-left: 400px;
+                }
+                .accordion{
+                    margin: 60px;
+                    width: 100%;
+                    max-width:480px;
+                
+                }
+                .container-scroll>h1{
+                    font-size: 20px;
+                }
+                .smallone{
+                    display: none;
+                }
+              .footer{
+                display: grid;
+                gap: 20px;
+                grid-template-columns: repeat(2,1fr);
+              }
+              footer>p{
+                padding: 10px;
+        
+              }
+                
+                
+                
+                }
+                @media screen and (width < 780px){
+                    .center-text h1{
+                        font-size: 30px;
+                        line-height:50px ;
+                        font-weight: 400px;
+                        max-width: 550px;
+                    }
+                    .center-text p{
+                        font-weight: 250;
+                        margin-bottom: 10px;
+                    }
+                    
+                
+                        main{
+                            margin:0px 50px;
+                           }
+                           .container>h2{
+                            font-size: 16px;
+                            
+                           }
+                           .sub-content{
+                            display: grid;
+                            grid-template-columns: repeat(1,1fr);
+                            padding: 30px ;
+                        }
+                        .content>h1{
+                            font-size: 20px;
+                        }
+                        .tv , .smile , .scope ,.arrow{
+                            margin: 10px;
+                            padding: 10px;
+                            width: 400px;
+                            height: 180px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 45px;
+                            border-radius: 10px;
+                            background-color: rgb(18, 36, 36);
+                        
+                        }
+                
+                        .under{
+                            margin-top:-16px;
+                            margin-bottom: 20px;
+                            font-size: 30px;
+                            margin-left: 330px;
+                        }
+                        .arou{
+                            margin-top: -30px;
+                            font-size: 50px;
+                            margin-left: 330px;
+                        }
+                        .sunder{
+                            margin-top:-10px;
+                            font-size: 35px;
+                            font-weight: 30;
+                            margin-left: 330px;
+                        }
+                        
+                        .munder{
+                            margin-top:-15px;
+                            font-size: 40px;
+                            margin-left: 330px;
+                        }
+                        .accordion{
+                            margin: 60px;
+                            width: 100%;
+                            max-width:350px;
+                        
+                        }
+                        .container-scroll>h1{
+                            font-size: 15px;
+                        }
+                        .smallone{
+                            display: none;
+                        }
+                      .footer{
+                        display: grid;
+                        gap: 20px;
+                        grid-template-columns: repeat(1,1fr);
+                      }
+                      footer>p{
+                        padding: 10px;
+                
+                      }
+                        
+                        
+                        
+                        }
