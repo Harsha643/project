@@ -252,9 +252,11 @@ scrollbar-width: none;
     overflow-x: scroll; 
 
 }
+
 main{
  margin: 0px 200px ;
 }
+
 .kehi:hover{
     transform:scale(1.2,1.1);
     cursor:pointer;
@@ -301,7 +303,8 @@ main{
 .sub-content{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    padding: 30px ;
+    /* padding: 30px ; */
+
 }
 .tv , .smile , .scope ,.arrow{
     margin: 10px;
@@ -909,9 +912,32 @@ main{
                 
                 }
  @media screen and (width < 570px){
+   
+    
+    .logo{
+        width: 80px;
+        cursor:pointer;
+    }
+    .lang-btn{
+        display: inline-block;
+        align-items: center;
+        background-color: transparent;
+        border:1px solid #ccc  ;
+        color: #fff;
+        padding:3px ;
+        outline: none;
+        border:2px solid;
+    }
+    .sign{
+        background-color: red;
+        width: 60px;
+        height: 20px;
+        padding: 4px;
+    }
+    
                     .center-text h1{
-                        font-size: 30px;
-                        line-height:50px ;
+                        font-size: 20px;
+                        line-height:30px ;
                         font-weight: 400px;
                         max-width: 550px;
                     }
@@ -931,7 +957,7 @@ main{
                            .sub-content{
                             display: grid;
                             grid-template-columns: repeat(1,1fr);
-                            padding: 30px ;
+                            /* padding: 30px ; */
                         }
                         .content>h1{
                             font-size: 15px;
@@ -939,7 +965,7 @@ main{
                         .tv , .smile , .scope ,.arrow{
                             margin: 10px;
                             padding: 10px;
-                            width: 400px;
+                            width: 200px;
                             height: 180px;
                             display: flex;
                             flex-direction: column;
@@ -953,33 +979,33 @@ main{
                             margin-top:-16px;
                             margin-bottom: 20px;
                             font-size: 30px;
-                            margin-left: 330px;
+                            margin-left:150px;
                         }
                         .arou{
-                            margin-top: -30px;
+                            margin-top: -40px;
                             font-size: 50px;
-                            margin-left: 330px;
+                            margin-left:140px;
                         }
                         .sunder{
                             margin-top:-10px;
                             font-size: 35px;
                             font-weight: 30;
-                            margin-left: 330px;
+                            margin-left: 150px;
                         }
                         
                         .munder{
-                            margin-top:-15px;
+                            margin-top:-30px;
                             font-size: 40px;
-                            margin-left: 330px;
+                            margin-left: 150px;
                         }
                         .accordion{
                             margin: 60px;
                             width: 100%;
-                            max-width:350px;
+                            max-width:200px;
                         
                         }
                         .container-scroll>h1{
-                            font-size: 15px;
+                            font-size: 12px;
                         }
                         .smallone{
                             display: none;
@@ -989,11 +1015,35 @@ main{
                         gap: 20px;
                         grid-template-columns: repeat(1,1fr);
                       }
-                      footer>p{
-                        padding: 10px;
+                      footer p{
+                        padding: 5px;
                 
+
                       }
+                      .accordion li label{
+                        display: flex;
+                        align-items: center;
+                        padding: 20px;
+                        font-size:12px;
+                        font-weight: 500;
+                        background: #303030;
+                        margin-bottom: 2px;
+                        cursor: pointer;
+                        position: relative;
+                        
+                    
+                    }
+                    .accordion .content{
+
+                        background: #303030;
+                        text-align: left;
+                        padding: 0 10px;
+                        max-height: 0;
+                        font-size: 12px;
+                        overflow: hidden;
+                        transition: max-height 0.5s, padding 0.5s;
+                    }
                         
                         
                         
-                        }
+ }
