@@ -965,7 +965,7 @@ main{
                         .tv , .smile , .scope ,.arrow{
                             margin: 10px;
                             padding: 10px;
-                            width: 200px;
+                            width: 225px;
                             height: 180px;
                             display: flex;
                             flex-direction: column;
@@ -979,29 +979,29 @@ main{
                             margin-top:-16px;
                             margin-bottom: 20px;
                             font-size: 30px;
-                            margin-left:150px;
+                            margin-left:170px;
                         }
                         .arou{
                             margin-top: -40px;
                             font-size: 50px;
-                            margin-left:140px;
+                            margin-left:170px;
                         }
                         .sunder{
                             margin-top:-10px;
                             font-size: 35px;
                             font-weight: 30;
-                            margin-left: 150px;
+                            margin-left: 170px;
                         }
                         
                         .munder{
                             margin-top:-30px;
                             font-size: 40px;
-                            margin-left: 150px;
+                            margin-left: 170px;
                         }
                         .accordion{
-                            margin: 60px;
+                            margin: 40px;
                             width: 100%;
-                            max-width:200px;
+                            max-width:250px;
                         
                         }
                         .container-scroll>h1{
