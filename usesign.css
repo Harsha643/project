@@ -26,9 +26,173 @@
 .container input{
     height: 40px;
 }  
-body{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+
+.main-container{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("./images/background\ image.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ footer{
+    padding: 50px;
+   
 }
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px ;
+}
+.nbr a{
+    text-decoration: underline;
+    color: rgb(63, 53, 53);
+    font-size: small;
+}
+input:focus::placeholder{
+    transform: translateY(-10px);
+    font-size: 10px;
+}
+
+.password:focus{
+    outline: 1px solid white;
+
+    outline-offset: 2px;
+
+}
+button{
+    height: 40px;
+}
+
+ @media screen and (width < 300px){
+    
+    .container{
+        width: 400px;
+        height: 500px;
+        display: grid;
+        align-items: center;
+        border: 2px solid ;
+        justify-content: center;
+        margin: 120px;
+        background-color: black;
+        grid-template-columns: 1fr;
+       
+        gap: 10px; 
+        padding: 20px;
+ 
+    }
+    .container .h2{
+        font-size: 16px;
+    }
+     .container .email {
+        height: 30px;
+     }
+     .container p{
+        font-size:12px;
+     }
+     .container button {
+        height: 20px;
+     }
+     .footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px ;
+    }
+    input:focus::placeholder{
+        transform: translateY(-5px);
+        font-size: 10px;
+    }
+
+
+ }
+ 
+ @media screen and (width < 500px){
+    
+    .container{
+        width: 400px;
+        height: 500px;
+        display: grid;
+        align-items: center;
+        border: 2px solid ;
+        justify-content: center;
+        margin: 120px;
+        background-color: black;
+        grid-template-columns: 1fr;
+       
+        gap: 10px; 
+        padding: 20px;
+ 
+    }
+    .container .h2{
+        font-size: 20px;
+    }
+     .container .email {
+        height: 30px;
+     }
+     .container p{
+        font-size:12px;
+     }
+     .container button {
+        height: 20px;
+     }
+     .footer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px ;
+    }
+
+
+ }
+ 
+ @media screen and (width < 700px){
+    
+    .container{
+        width: 400px;
+        height: 500px;
+        display: grid;
+        align-items: center;
+        border: 2px solid ;
+        justify-content: center;
+        margin: 120px;
+        background-color: black;
+        grid-template-columns: 1fr;
+       
+        gap: 20px; 
+        padding: 20px;
+    
+    
+       
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px ;
+    }
+   
+
+
+ }
+ @media screen and (width < 900px){
+    
+    .container{
+        width: 400px;
+        height: 550px;
+        display: grid;
+        align-items: center;
+        border: 2px solid ;
+        justify-content: center;
+        margin: 120px;
+        background-color: black;
+        grid-template-columns: 1fr;
+       
+        gap: 20px; 
+        padding: 20px;
+    
+    
+       
+    }
+   
+
+
+ }
