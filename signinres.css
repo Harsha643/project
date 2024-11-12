@@ -127,7 +127,7 @@ footer{
     .container{
   
 
-        width: 200px;
+        width: 150px;
         height: 400px;
         border: 2px solid ;
         display: grid;
@@ -166,7 +166,7 @@ footer{
     }
     .container h4{
         color:#fff;
-         margin-left:60px;
+         margin-left:70px;
     }
     .btn2{
         height: 20px; 
