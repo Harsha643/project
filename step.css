@@ -6,26 +6,23 @@
 .logo{
     width: 150px;
     /* padding: 10px; */
-}
+}/*
 .container{
     width: 100%;
     height: 100vh;
 }
 header{
-    display: flex;
+    display:flex;
     align-items: center;
- 
     justify-content: space-between;
-    padding: 10px 0px;
+   padding: 10px 0px ;
 }
-hr{
-    color: #ccc;
-}
+
 .main{
     width: 400px;
     height: 500px;
     display: grid;
-    /* background-color:; */
+
     grid-template-columns: 1fr;
     align-content: center;
     align-items: center;
@@ -48,4 +45,86 @@ form{
     display: flex;
     flex-direction: column;
     
+} */
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.sign a{
+    padding: 20px; 
+    font-size: 20px;
+}
+.main{
+
+    width: 310px;
+    height:500px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+form input{
+    width: 300px;
+    height: 40px;
+
+}
+form button{
+    width: 300px;
+    height: 40px;
+    background-color: #db0001;
+    color: #fff;
+    line-height: 30px;
+}
+.form a{
+    color: skyblue;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (width < 300px){
+
+    .logo{
+        width: 100px;
+    }
+.sign>a{
+    font-size:14px;
+}
+.main{
+    width: 200px;
+    height:400px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.main>.span{
+    font-size: 12px;
+}
+.main>h1{
+    font-size: 20px;
+}
+form button{
+    width: 220px;
+    height: 40px;
+    background-color: #db0001;
+    color: #fff;
+    line-height: 30px;
+}
+form input{
+    width: 220px;
+    height: 40px;
+
+}
+
+}
+
