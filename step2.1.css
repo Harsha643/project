@@ -1,5 +1,5 @@
 *{
-    margin: 0px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
@@ -9,6 +9,10 @@ header{
     display: flex;
     justify-content: space-between;
 align-items: center;
+padding: 10px;
+}
+img{
+    width: 150px;
 }
 .main-container{
     margin: 10px;
@@ -70,12 +74,12 @@ padding-top: 40px;
 }
 .footer{
     height:100px;
-    /* border: 2px solid; */
+    font-size: 12px;
+    color:#ccc;
     margin-left: 23%;
     margin-right: 23%;
-    /* font-size: 10px; */
-    
-    /* text-align: center; */
+  display: grid;
+ 
 }
 button{
     width: 400px;
@@ -87,4 +91,202 @@ button{
 button>a{
     color: #fff;
     font-size: 20px;
+}
+.hidden{
+    display: none;
+}
+
+
+@media screen and (width < 900px){
+   
+    .containter{
+        display: none;
+    }
+    .hidden{
+        display: block;
+    }
+
+    .condo{
+        width: 400px;
+        display: grid;
+       margin-top: 40px;
+       place-self: center;
+    }
+    .all{
+        width: 400px;
+        padding: 10px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .mdm{
+height: 80px;
+padding: 10px;
+border-radius: 10px;
+        border: 2px solid;
+    }
+  .mdm:hover{
+    background-color:#5875bf;
+  }
+  .mst{
+    height: 100px;
+   
+    border-radius: 10px;
+            border: 2px solid;
+        }
+        .mst>.bsc{
+            font-size:10px;
+         border-top-left-radius: 10px;
+         border-top-right-radius: 10px;
+            padding: 10px;
+            background-color:#3a3939;
+            color: white;
+        }
+
+      .mst:hover{
+        background-color:#5875bf;
+      }
+      .down{
+        margin: 20px;
+      }
+
+      .stdd{
+        height: 80px;
+        padding: 10px;
+        border-radius: 10px;
+                border: 2px solid;
+            }
+          .stdd:hover{
+            background-color:#5875bf;
+          }
+          .prm{
+            height: 80px;
+            padding: 10px;
+            border-radius: 10px;
+                    border: 2px solid;
+                }
+              .prm:hover{
+                background-color:#5875bf;
+              }
+           .items{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap:200px;
+            padding: 20px 0px ;
+           }
+           .item1{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+
+           }
+           .footer{
+            padding: 10px;
+           }
+              
+           .footer>p{
+            display: inline-block;
+            width: 300px;
+         margin-left:50px;
+           }
+           button{
+            width: 300px;
+           margin-left:60px;
+           }
+           
+}
+
+
+@media screen and (width < 400px){
+   
+    .containter{
+        display: none;
+    }
+    .hidden{
+        display: block;
+    }
+
+    .condo{
+        width: 300px;
+        display: grid;
+       margin-top: 40px;
+       place-self: center;
+    }
+    .all{
+        width: 300px;
+        padding: 10px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .mdm{
+height: 80px;
+padding: 10px;
+border-radius: 10px;
+        border: 2px solid;
+    }
+  .mdm:hover{
+    background-color:#5875bf;
+  }
+  .mst{
+    height: 100px;
+   
+    border-radius: 10px;
+            border: 2px solid;
+        }
+        .mst>.bsc{
+            font-size:10px;
+         border-top-left-radius: 10px;
+         border-top-right-radius: 10px;
+            padding: 10px;
+            background-color:#3a3939;
+            color: white;
+        }
+
+      .mst:hover{
+        background-color:#5875bf;
+      }
+      .down{
+        margin: 20px;
+      }
+
+      .stdd{
+        height: 80px;
+        padding: 10px;
+        border-radius: 10px;
+                border: 2px solid;
+            }
+          .stdd:hover{
+            background-color:#5875bf;
+          }
+          .prm{
+            height: 80px;
+            padding: 10px;
+            border-radius: 10px;
+                    border: 2px solid;
+                }
+              .prm:hover{
+                background-color:#5875bf;
+              }
+           .items{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap:200px;
+            padding: 20px 0px ;
+           }
+           .item1{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+
+           }
+          
+           .footer>p{
+            display: inline-block;
+            width: 300px;
+         margin-left:0px;
+           }
+           button{
+            width: 300px;
+           margin-left:0;
+           }
+           
 }
