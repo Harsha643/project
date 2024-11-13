@@ -81,17 +81,23 @@ text-align: center;
     margin-top: 30px;
     /* overflow: hidden; */
 }
+.email-address:focus{
+    outline: 1px solid white;
+    
+    outline-offset: 2px;
+}
 .email-address input{
     flex: 1;
+    height: 30px;
     border: 0;
     outline: 0;
-    /* margin-left: 20px; */
+    margin-left: 20px;
 
 }
-.email-address:focus::placeholder{
+input:focus::placeholder{
     transform: translateY(-10px);
     font-size: 10px;
-    
+
 }
 .email-address .btn{
     background-color: #db0001;
@@ -103,6 +109,13 @@ text-align: center;
    padding: 15px 20px;
     
 
+}
+.container h2{
+    font-size: 28px;
+}
+.container select{
+    background-color:transparent;
+    color: #fff;
 }
 .sub{
     width: 250px;
@@ -931,7 +944,7 @@ main{
     .sign{
         background-color: red;
         width: 60px;
-        height: 20px;
+        height: 35px;
         padding: 4px;
     }
     
