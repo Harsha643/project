@@ -2,343 +2,172 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; 
 }
-body{
-    display: flex;
-    flex-direction: column;
-}
+
 header{
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-}
-.circle{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: 5px solid ;
-    margin-left:25%;
-   
-}
-header>img{
-
-    width:150px;
-}
-.sinout>a{
-
-    font-size: 20px;
-}
-.icon{ 
-   
-    font-size: 40px; 
-    margin-left: 10px ; 
-    margin-top: 10px;
-}
-.main1{
-    margin: 40px;
-    width:350px;
-    height:400px ;
-    margin-left: 600px;
-}
-
-.content{
-    margin: 20px; 
-     display: flex;
-    flex-direction: column;
+    padding: 10px;
     
 }
-button{
-    font-size: 24px;
-    height: 20px;   
+header>img{
+    width: 150px;
 }
+main{
+    display: flex;
+   /* height: 100vh; */
+   align-items: center;
+    width: 320px;
+    justify-content: center;
+    margin: 20px;
 
+    margin-left: 700px;
+    gap: 10px;
+}
+.circle{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+      align-items: center;
+    gap: 10px;
+
+}
+.content>button{
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+}
 button>a{
-    width: 40px;
     text-decoration: none;
-    color: #fff;
+    color: white;
+    font-size: 1rem;
 }
-.step{
-    margin-left: 20%;
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
 }
-
+.icon{
+    font-size:20px;
+}
+.icona{
+    
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 5px solid ;
+        margin-left:5%;
+       
+    
+}
 
 @media screen and (width < 300px){
 
     header>img{
         width: 100px;
     }
-    header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
+    .sinout>a{
+        font-size:12px;
     }
-  
-
-    .main1{
-        margin: 40px;
-        width:300px;
-        height:400vh ;
-       
+    main{
+        display: flex;
+        /* border: 2px solid; */
+        width:280px;
+        justify-content: center;
+        margin: 20px;
+        margin-top: 120px;
+        /* margin-left: 280px; */
+        gap: 10px;
     }
     .circle{
-        width: 50px;
-        height: 50px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    
+    }
+    .circle>.icona{
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
         border: 5px solid ;
-        margin-left:30%;
-       
-    }
-    .icon{ 
-   
-        font-size: 30px; 
-        margin-left:10px ; 
-        margin-top: 10px;
-    }
-    .content{
-        margin: 10px; 
-        display: flex;
-       flex-direction: column;
-       
-   
-    }
-    .sinout a{
+        margin-left:5%;
 
-        font-size:14px;
     }
-    
-    button{
-        width: 200px;
-        height: 35px;   
-    }
-    .content>span{
-        font-size: 14px;
-        margin-left:80px;
-    }
-    .content>h1{
-        font-size: 24px;
-        margin-left: 20px;
-    }
-    .content>p{
+    .circle>span{
         font-size: 12px;
 
     }
-    .content>button{
-        margin-left: 10px;
-        width: 230px;
+    .circle>h1{
+        font-size: 24px;
     }
-   
+    .content>p{
+        font-size: 12px;
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+        width: 160px;
+        cursor: pointer;
+    }
+
 
 }
+
 
 @media screen and (width < 500px){
-
-    header>img{
-        width: 120px;
-    }
-    header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
-    }
-  
-
-    .main1{
-        margin: 50px;
-        width:400px;
-        height:500vh ;
-       
-    }
-    .circle{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        border: 5px solid ;
-        margin-left:30%;
-       
-    }
-    .icon{ 
-   
-        font-size: 30px; 
-        margin-left:8px ; 
-        margin-top: 9px;
-    }
-    .content{
-        margin: 20px; 
-        display: flex;
-       flex-direction: column;
-       
-   
-    }
-    .sinout a{
-
-        font-size:14px;
-    }
-    
-    button{
-    
-        height: 35px;   
-    }
-    .content>span{
-        font-size: 14px;
-        margin-left:80px;
-    }
-    .content>h1{
-        font-size: 30px;
-        margin-left: 20px;
-    }
-    .content>p{
-        font-size: 15px;
-
-    }
-    .content>button{
-        margin-left: 10px;
-        width: 290px;
-    }
-
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.circle>h1{
+    font-size: 24px;
 }
 
-
-@media screen and (width < 700px){
-
-    header>img{
-        width: 120px;
-    }
-    header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
-    }
-  
-
-    .main1{
-        margin: 70px;
-        width:500px;
-        height:500vh ;
-       
-    }
-    .circle{
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        border: 5px solid ;
-        margin-left:50%;
-       
-    }
-    .icon{ 
+header>img{
+    width: 120px;
+}
+.circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main{
+    display: flex;
    
-        font-size: 30px; 
-        margin-left:8px ; 
-        margin-top: 9px;
-    }
-    .content{
-        margin: 20px; 
-        display: flex;
-       flex-direction: column;
-       
-   
-    }
-    .sinout a{
-
-        font-size:16px;
-    }
-    
-    button{
-    
-        height: 35px;   
-    }
-    .content>span{
-        font-size: 20px;
-        margin-left:200px;
-    }
-    .content>h1{
-        font-size: 36px;
-        margin-left:110px;
-    }
-    .content>p{
-        margin-left: 60px;
-        font-size:22px;
-
-    }
-    .content>button{
-        margin-left:70px;
-        width: 400px;
-        height: 80px;
-    }
-
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 150px;
+    justify-content: center;
 }
 
-@media screen and (width < 900px){
-
-    header>img{
-        width: 150px;
-    }
-    header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
-    }
-  
-
-    .main1{
-        margin: 70px;
-        width:500px;
-        height:500px ;
-       
-    }
-    .circle{
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        border: 5px solid ;
-        margin-left:50%;
-       
-    }
-    .icon{ 
-   
-        font-size: 30px; 
-        margin-left:8px ; 
-        margin-top: 9px;
-    }
-    .content{
-        margin:20px; 
-        display: flex;
-       flex-direction: column;
-       
-   
-    }
-    .sinout a{
-
-        font-size:24px;
-    }
+.icona{
     
-    button{
-        font-size: 20px;
-        height: 35px;
-       
-    }
-    .content>span{
-        font-size: 24px;
-        margin-left:200px;
-    }
-    .content>h1{
-        font-size: 32px;
-        margin-left:130px;
-    }
-    .content>p{
-        margin-left: 60px;
-        font-size:24px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid ;
+    margin-left:5%;
+   
 
-    }
-    .content>button{
-        margin-left:70px;
-        width: 500px;
-       
-    }
-
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+}
+.content>button{
+    width: 280px;
+    height: 40px;
+    cursor: pointer;
+}
 }
