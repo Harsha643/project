@@ -4,16 +4,36 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+.logo{
+    width: 150px;
+    cursor:pointer;
+}
+
+.sign>a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #db0001;
+}
+.header{
+    display: flex;
+    align-items: center;
+ 
+    justify-content: space-between;
+    padding: 30px;
+}
+body{
+    background-color: black;
+    background-size: cover;
+}
 
 .container{
-    background-color: black;
    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 30px;
-    padding: 30px;
+    padding: 0px 30px ;
     
 }
 form{
@@ -22,9 +42,56 @@ form{
     height: 600px;
     display: grid;
     grid-template-columns: 1fr;
-    /* gap: px; */
+     gap:10px;
     padding: 30px;
+} 
+.para{
+    width:420px;
+   margin-left: 230px ;
+   
 }
-/* .email:focus{
-    outline: 2px solid white;
-} */
+@media screen and (width < 550px){
+
+    .logo{
+        width: 100px;
+        cursor:pointer;
+    }
+    
+    .sign>a{
+        text-decoration: none;
+        font-size: 16px;
+        color: #db0001;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+     
+        justify-content: space-between;
+     
+    }
+    form{
+        background-color: white;
+        width: 300px;
+        height: 450px;
+        display: grid;
+        grid-template-columns: 1fr;
+         gap:10px;
+        padding: 20px;
+    } 
+
+    form h1{
+        font-size: 24px;
+    }
+    .container a{
+        font-size: 12px;
+    }
+    .para{
+        
+        font-size: 12px;
+        width:300px;
+       margin-left: 120px ;
+       
+    }
+
+}
+

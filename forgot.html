@@ -8,23 +8,33 @@
     <link rel="icon" href="./images/netflix.png" type="image/png">
 </head>
 <body>
+    <div class="header">
+        <div>
+        <img src="./images/netplay.png" alt="header.img" class="logo">
+    </div>
+    <div class="sign">
+    <a href="signinres.html">Sign In</a>
+</div>
+</div>
     <div class="main-container" >
         <div class="container">
-            <form action="">
+            <form action="email.html">
         <h1>Update password, email or phone</h1>
         <p>How would you like to reset your password?</p>
-         <input type="radio" name="email address" id="email" value="email"  style="transform: scale(0.4); ">
-             <label for="email"> Email</label><br>
-       <input type="radio" name="text" id="text" value="Text Message (SMS)" style="transform: scale(0.4); "> 
-       <label for="text" >  Text Message (SMS)</label>
+        <label for="email">
+         <input type="radio" name="email address" id="email" value="email"  style="transform: scale(0.4); " required> Email</label>
+             
+             <label for="text" >
+       <input type="radio" name="text" id="text" value="Text Message (SMS)" style="transform: scale(0.4); " required>Text Message (SMS)</label> 
+      
 
         <p>We will send you an email with instructions on how to reset your password.</p>
         <input type="email" placeholder="name@example.com" class="email" >
         <button type="submit" style="background-color: #4a8ffa ; cursor: pointer;">Email Me</button>
-        <a href="" >I can't remember my email address or phone number.</a>
+        <a href="#" >I can't remember my email address or phone number.</a>
     </form>
     </div>
- <p style="color:#87898b">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="">Learn more</a>.</p>
+ <p style="color:#87898b" class="para">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="">Learn more</a>.</p>
     </div>
 
 </body>
