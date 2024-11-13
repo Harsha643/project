@@ -47,7 +47,7 @@ form{
 } 
 .para{
     width:420px;
-   margin-left: 230px ;
+   margin-left: 550px ;
    
 }
 @media screen and (width < 550px){
@@ -86,7 +86,7 @@ form{
         font-size: 12px;
     }
     .para{
-        
+
         font-size: 12px;
         width:300px;
        margin-left: 120px ;
@@ -95,3 +95,31 @@ form{
 
 }
 
+@media screen and (width < 900px){
+
+   
+    form{
+        background-color: white;
+        width: 300px;
+        height: 450px;
+        display: grid;
+        grid-template-columns: 1fr;
+         gap:10px;
+        padding: 20px;
+    } 
+
+    form h1{
+        font-size: 24px;
+    }
+    .container a{
+        font-size: 12px;
+    }
+    .para{
+
+        font-size: 12px;
+        width:300px;
+       margin-left: 230px ;
+       
+    }
+
+}
