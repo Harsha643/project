@@ -17,7 +17,6 @@ header>img{
 }
 main{
     display: flex;
-   /* height: 100vh; */
    align-items: center;
     width: 320px;
     justify-content: center;
@@ -122,7 +121,7 @@ button>a{
 }
 
 
-@media screen and (width < 500px){
+@media screen and (width < 530px){
 header{
     display: flex;
     justify-content: space-between;
@@ -145,8 +144,8 @@ main{
    
     width: 300px;
     margin-top: 100px;
-    margin-left: 150px;
-    justify-content: center;
+    margin-left:50%;
+   
 }
 
 .icona{
@@ -171,3 +170,201 @@ main{
     cursor: pointer;
 }
 }
+
+
+
+@media screen and (width < 700px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .circle>h1{
+        font-size: 32px;
+    }
+    .sinout>a{
+       font-size:24px;
+    }
+    
+    header>img{
+        width: 140px;
+    }
+    .circle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main{
+        display: flex;
+       
+        width: 300px;
+        margin-top: 100px;
+        margin-left: 200px;
+        justify-content: center;
+    }
+    .content{
+        padding:10px 20px;
+    }
+    
+    .icona{
+        
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 5px solid ;
+        margin-left:5%;
+       
+    
+    }
+    .circle>span{
+        font-size: 16px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      
+    }
+    .content>button{
+        width: 280px;
+        height: 40px;
+        cursor: pointer;
+    }
+    .content>p{
+        font-size: 16px;
+    }
+    .content>button{
+        width: 320px;
+    }
+    }
+    
+@media screen and (width < 950px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .circle>h1{
+        font-size: 32px;
+    }
+    .sinout>a{
+       font-size:24px;
+    }
+    
+    header>img{
+        width: 140px;
+    }
+    .circle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main{
+        display: flex;
+       
+        width: 300px;
+        margin-top: 100px;
+        margin-left: 200px;
+        justify-content: center;
+    }
+    .content{
+        padding:10px 20px;
+    }
+    
+    .icona{
+        
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 5px solid ;
+        margin-left:5%;
+       
+    
+    }
+    .circle>span{
+        font-size: 16px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      
+    }
+    .content>button{
+        width: 280px;
+        height: 40px;
+        cursor: pointer;
+    }
+    .content>p{
+        font-size: 16px;
+    }
+    .content>button{
+        width: 320px;
+    }
+    }
+    
+@media screen and (width < 1200px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .circle>h1{
+        font-size: 32px;
+    }
+    .sinout>a{
+       font-size:24px;
+    }
+    
+    header>img{
+        width: 150px;
+    }
+    .circle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main{
+        display: flex;
+       
+        width: 300px;
+        margin-top: 100px;
+        margin-left: 500px;
+        justify-content: center;
+    }
+    .content{
+        padding:10px 20px;
+    }
+    
+    .icona{
+        
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 5px solid ;
+        margin-left:5%;
+       
+    
+    }
+    .circle>span{
+        font-size: 20px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      
+    }
+    .content>button{
+        width: 400px;
+        height: 40px;
+        cursor: pointer;
+    }
+    .content>p{
+        font-size: 20px;
+    }
+    .content>button{
+        width: 400px;
+    }
+    }
+    
