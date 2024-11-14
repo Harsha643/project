@@ -134,6 +134,7 @@ input:focus::placeholder{
     justify-content: space-between;
     align-items: start;
     /* gap: 10px; */
+    transition: 0.4s ease;
    
 }
 .second{
@@ -147,6 +148,7 @@ input:focus::placeholder{
     justify-content: space-between;
     align-items: start;
     /* gap: 10px; */
+    transition: 0.4s ease;
    
 }
 .third{
@@ -160,6 +162,7 @@ input:focus::placeholder{
     justify-content: space-between;
     align-items: start;
     /* gap: 10px; */
+    transition: 0.4s ease;
    
 }
 .fourth{
@@ -173,6 +176,7 @@ input:focus::placeholder{
     justify-content: space-between;
     align-items: start;
     /* gap: 10px; */
+    transition: 0.4s ease;
    
 }
 .fifth{
@@ -186,6 +190,7 @@ input:focus::placeholder{
     justify-content: space-between;
     align-items: start;
     /* gap: 10px; */
+    transition: 0.4s ease;
    
 }
 .sixth{
@@ -199,6 +204,7 @@ input:focus::placeholder{
     justify-content: space-between;
     align-items: start;
     /* gap: 10px; */
+    transition: 0.4s ease;
    
 }
 .seventh{
@@ -212,6 +218,7 @@ input:focus::placeholder{
     justify-content: space-between;
     align-items: start;
     /* gap: 10px; */
+    transition: 0.4s ease;
    
 }
 .eighth{
@@ -225,6 +232,7 @@ input:focus::placeholder{
     justify-content: space-between;
     align-items: start;
     /* gap: 10px; */
+    transition: 0.4s ease;
    
 }
 .ninth{
@@ -238,6 +246,7 @@ input:focus::placeholder{
     justify-content: space-between;
     align-items: start;
     /* gap: 10px; */
+    transition: 0.4s ease;
    
 }
 .tenth{
@@ -251,6 +260,7 @@ input:focus::placeholder{
     justify-content: space-between;
     align-items: start;
     /* gap: 10px; */
+    transition: 0.4s ease;
    
 }
 
