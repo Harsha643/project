@@ -74,6 +74,7 @@ main>h2{
     background-color: rgb(30, 30, 96);
     color: #fff;
     margin-top: 10px;
+    padding: 10px;
    
     
 }
@@ -149,9 +150,10 @@ border-radius: 10px;
             font-size:10px;
          border-top-left-radius: 10px;
          border-top-right-radius: 10px;
-            padding: 10px;
+            padding:10px 12px ;
             background-color:#3a3939;
-            color: white;
+            color: white; 
+            margin-left: 1px;
         }
 
       .mst:hover{
